@@ -1,0 +1,123 @@
+:root {
+    --color-primary: #1c1e53;
+    --color-secondary: #ff485e;
+    --color-title: #1c1e53;
+    --color-text: #1c1e53;
+}
+
+
+.bg-accent {
+    background-color: #eef4fa !important
+}
+
+.bg-blue {
+    background-color: var(--color-primary) !important
+}
+
+.bg-pink {
+    background-color: var(--color-secondary) !important
+}
+
+
+.bg-gradient-blue {
+    background: linear-gradient(to right, #0c0c1f 0%, #00095e 100%) !important;
+}
+
+.bg-gradient-pink {
+    background: linear-gradient(to bottom, #ff485e 0%, #ff6e5d 100%) !important;
+}
+
+.text-gradient {
+    background-image: linear-gradient(81deg, #ff485e 0%, #ff6e5d 35%, #ff6e5d 100%) !important;
+}
+
+.color-primary {
+    color: var(--color-primary) !important;
+}
+
+.color-secondary {
+    color: var(--color-secondary) !important;
+}
+
+
+
+/* overlay class custom */
+.dia-exp-section .dio-exp-text-area .dia-exp-btn,
+.dia-service-section .dia-service-btn .dia-service-more,
+.dia-banner-section .dia-banner-content .dia-banner-btn .dia-play-btn {
+    background-color: var(--color-primary);
+}
+
+.dia-exp-section .dio-exp-text-area .dia-exp-btn:before,
+.dia-service-section .dia-service-btn .dia-service-more:before,
+.dia-banner-section .dia-banner-content .dia-banner-btn .dia-play-btn:hover,
+.sa-contact-inner-form button {
+    background-color: var(--color-secondary);
+}
+
+
+
+.dia-banner-section .dia-banner-content .dia-banner-btn .dia-abt-btn,
+.dia-port-more a {
+    background-color: var(--color-secondary);
+}
+
+
+.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .nws-button button,
+.dia-testimonial_indicator-dot .carousel-indicators2 li:after {
+    background-image: linear-gradient(81deg, #ff485e 0%, #ff6e5d 35%, #ff6e5d 100%) !important;
+}
+
+.dia-banner-section .dia-banner-content .dia-banner-btn .dia-abt-btn:before,
+.dia-port-more a:before,
+.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .nws-button button:before {
+    background-color: var(--color-primary);
+}
+
+.dia-testimonial-section .carousel-indicators li.active {
+    border: 3px solid var(--color-primary);
+}
+
+/* style section team */
+.dia-team-section .dia-team-pic-text .dia-team-social a:after {
+    background-image: linear-gradient(81deg, #ff4495 0%, #ff6d6d 75%, #ff6d6dd5 100%) !important;
+}
+
+.dia-team-section .dia-team-content .owl-nav .owl-next:hover {
+    background-color: var(--color-primary);
+}
+
+/* blog */
+.dia-blog-section .dia-blog-img-text .dia-blog-text h3:hover {
+    color: var(--color-secondary);
+}
+
+.dia-banner-section .banner-side-img.banner-img1.view-on,
+.dia-banner-section .banner-side-img.banner-img2.view-on {
+    right: -190px;
+}
+@media screen and (max-width: 1440px) {
+
+    .dia-banner-section .banner-side-img.banner-img1.view-on,
+    .dia-banner-section .banner-side-img.banner-img2.view-on {
+        right: -400px;
+    }
+}
+.str-team-img-text:hover .str-team-text {
+    background: linear-gradient(to right, #0c0c1f 0%, #00095e 100%) !important;
+}
+.str-team-img-text .str-team-text span {
+    background-image: linear-gradient(81deg, #ff485e 0%, #ff6e5d 35%, #ff6e5d 100%) !important;
+}
+.str-team-img-text:hover .str-team-text span  {
+    color: var(--color-secondary);
+}
+.saasio-pagination a {
+    background-color: var(--color-secondary);
+    border-radius: 6px;
+
+}
+.saasio-pagination a.active,
+.saasio-pagination a:hover {
+    background-color: var(--color-primary);
+}
