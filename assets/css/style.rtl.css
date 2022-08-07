@@ -128,13 +128,22 @@ a {
 .dia-mobile_menu_button {
     top: -45px;
 }
-.dia-mobile_menu_content .dia-mobile-main-navigation .navbar-nav li a  {
+
+.dia-mobile_menu_content .dia-mobile-main-navigation .navbar-nav li a {
     font-size: 17px;
     padding: 15px 10px;
 }
-.sa-team-inner-section .str-team-img  img{
+
+.sa-team-inner-section .str-team-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
+
+.sa-contact-inner-form input,
+.sa-contact-inner-form textarea {
+    padding-right: 20px;
+    text-align: right;
+}
+
