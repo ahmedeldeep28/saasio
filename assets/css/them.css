@@ -253,3 +253,10 @@
 
     line-height: 35px;
 }
+
+.saasio-breadcurmb-section {
+    background: url("../img/photo/background.jpeg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
