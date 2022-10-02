@@ -264,3 +264,7 @@
 .dia-about-content .dia-about-title-text {
     max-width: 465px;
 }
+
+.socail-ul .socail-li a {
+    line-height: 0;
+}
