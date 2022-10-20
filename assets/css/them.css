@@ -300,3 +300,19 @@
 .saas_two_section_title {
     max-width: 510px;
 }
+.socail-ul .socail-li a {
+    line-height: 0;
+}
+
+.dia-banner-section .dia-banner-content {
+    max-width: 590px;
+}
+.dia-banner-section .dia-banner-content h1 {
+    font-size: 40px;
+}
+
+@media (max-width: 590px) {
+    .dia-fun-fact-section .dia-fun-fact-title h2 {
+        font-size: 28px;
+    }
+}
